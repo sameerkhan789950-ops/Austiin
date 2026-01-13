@@ -1,6 +1,3 @@
-
-
-
 module.exports = {
   config: {
     name: "sexvid",
