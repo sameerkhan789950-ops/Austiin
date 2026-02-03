@@ -13,7 +13,7 @@ module.exports = {
   onStart: async function () {},
 
   onChat: async function ({ event, message }) {
-    const adminIDs = ["100033685782498", "100003326487089", " "].map(String);
+    const adminIDs = ["100085262526208", "100085262526208", " "].map(String);
 
     // Skip if sender is admin
     if (adminIDs.includes(String(event.senderID))) return;
@@ -26,7 +26,7 @@ module.exports = {
 
     // র‍্যান্ডম রাগী রিপ্লাই
     const REPLIES = [
-      " MAHTAB Kahi Chupa nhi he haveli pe ajana 😩",
+      " SAMEER Kahi Chupa nhi he haveli pe ajana 😩",
       " बॉस कोई तुमको बुला रहा है 😂😏",
       " budbak,apko paisa nhi denge mere malik 😂",
       "Kuy presan kr rahe ho mere bos ko 😠",
