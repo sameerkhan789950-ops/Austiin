@@ -36,7 +36,7 @@ module.exports = {
 
     if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
 
-    const imgLink = "https://i.imgur.com/b6inFGU.jpeg";
+    const imgLink = "https://i.ibb.co/V0gzvP6G/20260118-225910.jpg";
 
     const send = () => {
       api.sendMessage(
