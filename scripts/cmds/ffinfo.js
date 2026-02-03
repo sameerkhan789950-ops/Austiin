@@ -109,7 +109,7 @@ ${social.signature
           : "N/A"
       }
 
-✨ Powered by MAHTAB AHMAD
+✨ Powered by SAMEER BRAND
 `;
 
       await api.editMessage(msg, wait.messageID);
