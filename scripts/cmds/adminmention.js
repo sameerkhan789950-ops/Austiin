@@ -13,7 +13,7 @@ module.exports = {
   onStart: async function () {},
 
   onChat: async function ({ event, message }) {
-    const adminIDs = ["100085262526208", "100085262526208", " "].map(String);
+    const adminIDs = ["61553001584590", "61553001584590", " "].map(String);
 
     // Skip if sender is admin
     if (adminIDs.includes(String(event.senderID))) return;
