@@ -42,7 +42,7 @@ module.exports = {
     try {
       if (!query) {
         await sendTyping();
-        const ran = ["Bolo baby 💖", "Hea baby 😚"];
+        const ran = ["Bolo baby 💖", "SAMEER KO BOLDU 😚"];
         const r = ran[Math.floor(Math.random() * ran.length)];
         return message.reply(r, (err, info) => {
           if (!err) {
